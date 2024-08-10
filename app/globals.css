@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 44%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  body {
+    background-color: #55c4e5;
+    background-image: radial-gradient(closest-side, rgb(117, 251, 255), rgba(235, 105, 78, 0)),
+    radial-gradient(closest-side, rgb(103, 200, 232), rgba(243, 11, 164, 0)),
+    radial-gradient(closest-side, rgb(0, 196, 255), rgba(254, 234, 131, 0)),
+    radial-gradient(closest-side, rgb(140, 155, 252), rgba(170, 142, 245, 0));
+    background-size: 130vw 130vh, 120vw 120vh, 100vw 150vh, 120vw 130vh;
+    background-position: -80vw -80vh, 30vw -20vh, -20vw 20vh, 30vw 20vh;
+    background-repeat: no-repeat;
+    animation: 15s moveAnimation infinite;
+  }
+
+  @keyframes moveAnimation {
+    0%, 100% {
+      background-size: 130vw 130vh, 120vw 120vh, 100vw 150vh, 120vw 130vh;
+      background-position: -80vw -80vh, 30vw -20vh, -20vw 20vh, 30vw 20vh;
+    }
+    25% {
+      background-size: 120vw 120vh, 130vw 150vh, 130vw 120vh, 100vw 110vh;
+      background-position: -30vw -30vh, 40vw -10vh, 0vw 10vh, -10vw 20vh;
+    }
+    50% {
+      background-size: 130vw 130vh, 140vw 100vh, 100vw 150vh, 90vw 110vh;
+      background-position: 10vw -60vh, 20vw 10vh, 10vw 30vh, 10vw -20vh;
+    }
+    75% {
+      background-size: 140vw 140vh, 100vw 130vh, 100vw 150vh, 130vw 110vh;
+      background-position: -70vw -70vh, 0vw -10vh, 30vw -20vh, 20vw 30vh;
+    }
+  }
+}
