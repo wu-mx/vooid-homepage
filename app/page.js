@@ -21,7 +21,7 @@ export default function Home() {
                         <a href="https://github.com/wu-mx" className="hover:text-primary transition-colors">
                             <FiGithub className="w-6 h-6" />
                         </a>
-                        <a href="https://x.com/wuoomx" className="hover:text-primary transition-colors">
+                        <a href="https://x.com/voiponix" className="hover:text-primary transition-colors">
                             <FaXTwitter className="w-6 h-6" />
                         </a>
                         <a href="https://t.me/voo_id" className="hover:text-primary transition-colors">
