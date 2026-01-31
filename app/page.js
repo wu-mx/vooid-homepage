@@ -15,7 +15,7 @@ export default function Home() {
                             <AvatarImage src="/avatar.jpg" alt="Vooid" />
                             <AvatarFallback>V</AvatarFallback>
                         </Avatar>
-                        <h1 className="text-4xl font-bold">Vooid</h1>
+                        <h1 className="text-4xl font-bold">Voiclin</h1>
                     </div>
                     <div className="flex items-center space-x-4 text-muted-foreground">
                         <a href="https://github.com/wu-mx" className="hover:text-primary transition-colors">
@@ -24,7 +24,7 @@ export default function Home() {
                         <a href="https://x.com/voiponix" className="hover:text-primary transition-colors">
                             <FaXTwitter className="w-6 h-6" />
                         </a>
-                        <a href="https://t.me/voo_id" className="hover:text-primary transition-colors">
+                        <a href="https://t.me/heap_voiclin" className="hover:text-primary transition-colors">
                             <FaTelegramPlane className="w-6 h-6" />
                         </a>
                     </div>
